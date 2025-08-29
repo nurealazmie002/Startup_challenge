@@ -20,13 +20,7 @@ header {
   z-index: 2;
   background-color: #2563eb;
 }
-header h1:hover {
-  background-color: darkgray;
-  transition: 0.5s;
-  padding: 5px;
-  box-shadow: 0 10px 20px rgba(62, 43, 43, 0.3);
-  border-radius: 10px;
-}
+
 header img {
   width: 60px;
   height: 60px;
@@ -105,6 +99,7 @@ header nav a:hover {
 .profile-card h2 {
   color: #1e3c72;
   margin-bottom: 15px;
+  font-size: 40px;
 }
 
 .profile-card p, .profile-card ul {
@@ -115,4 +110,56 @@ header nav a:hover {
 
 .profile-card ul {
   padding-left: 20px;
+}
+.project {
+  padding: 70px 20px;
+  background: #ffff;
+  text-align: center;
+}
+
+.judul {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+  color: #2a5298;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.project-card p {
+  color: #333;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.project-card .detail {
+  margin-top: 15px;
+  font-weight: bold;
+  background-color: darkgrey;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
 }
