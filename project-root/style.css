@@ -6,7 +6,7 @@ body {
   background-color: #ffff;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 header {
   position: fixed;
@@ -86,8 +86,7 @@ header nav a:hover {
 .profile-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1000px;
+  gap: 50px;
   margin: 0 auto;
 }
 
