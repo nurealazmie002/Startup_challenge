@@ -6,10 +6,13 @@ body {
   background-color: #ffff;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  margin-top: 200px;
 }
 header {
-  width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,4 +51,69 @@ header nav a:hover {
   padding: 10px;
   box-shadow: 0 10px 20px rgba(62, 43, 43, 0.3);
   border-radius: 9px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero .tagline {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.hero .description {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.company-profile {
+  background: #f8f9fc;
+  padding: 60px 20px;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+}
+
+.profile-card h2 {
+  color: #1e3c72;
+  margin-bottom: 15px;
+}
+
+.profile-card p, .profile-card ul {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.profile-card ul {
+  padding-left: 20px;
 }
