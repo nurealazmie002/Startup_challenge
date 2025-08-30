@@ -14,7 +14,7 @@ Kami percaya bahwa teknologi harus inklusif, mudah diakses, dan bermanfaat bagi 
  📦 Daftar Proyek
 
 1. Smart Finance App
-Aplikasi manajemen keuangan berbasis AI untuk analisis pengeluaran, integrasi e-wallet, dan laporan interaktif.  
+Aplikasi manajemen keuangan berbasis AI untuk analisis pengeluaran, integrasi e-wallet, dan laporan interaktif dan inovatif.  
 🔗 [Lihat detail](https://nurealazmie002.github.io/Startup_challenge/projects/project1.html)
 
 2. Interactive Learning Platform
