@@ -163,3 +163,7 @@ header nav a:hover {
   padding: 8px 12px;
   border-radius: 6px;
 }
+.detail p a {
+  color: white;
+  text-decoration: none;
+}
